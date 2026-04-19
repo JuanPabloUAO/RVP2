@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a7a42f88760864eb0adc8ec3847ebf, type: 3}
+  m_Name: Episode3Data
+  m_EditorClassIdentifier: Assembly-CSharp::MovieQuizData
+  movieID: 2
+  questions:
+  - questionText: "\xBFQuien es Darth Sidious?"
+    answers:
+    - Dooku
+    - Palpatine
+    - Maul
+    - Vader
+    correctIndex: 1
+  - questionText: "\xBFQuien mata a Dooku?"
+    answers:
+    - Anakin
+    - Obi-Wan
+    - Yoda
+    - Grievous
+    correctIndex: 0
+  - questionText: "\xBFComo se llama la orden de los Jedi?"
+    answers:
+    - Orden 99
+    - Orden Final
+    - Orden Sith
+    - Orden 66
+    correctIndex: 3
+  - questionText: "\xBFNombre Sith de Anakin"
+    answers:
+    - Darth Maul
+    - Darth Anaconda
+    - Darth Revan
+    - Darth Vader
+    correctIndex: 3
+  - questionText: "\xBFQuien derrota a Anakin?"
+    answers:
+    - Palpatine
+    - Obi-Wan
+    - Yoda
+    - Windu
+    correctIndex: 1
+  - questionText: "\xBFDonde lucha Yoda contra Sidious?"
+    answers:
+    - Senado
+    - Mustafar
+    - Naboo
+    - Kamino
+    correctIndex: 0
+  - questionText: "\xBFQue ocurre con Padm\xE9?"
+    answers:
+    - Sobrevive
+    - Desaparece
+    - Es capturada
+    - Muere
+    correctIndex: 3
+  - questionText: "\xBFQuien adopta a Luke?"
+    answers:
+    - Organa
+    - Kenobi
+    - Owen Lars
+    - Yoda
+    correctIndex: 2
+  - questionText: "\xBFQuien adopta a Leia?"
+    answers:
+    - Windu
+    - Organa
+    - Solo
+    - Tarkin
+    correctIndex: 1
+  - questionText: "\xBFQue surge al final?"
+    answers:
+    - La Republica
+    - El Imperio
+    - La Rebelion
+    - La Orden Jedi
+    correctIndex: 1

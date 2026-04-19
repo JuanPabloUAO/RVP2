@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a7a42f88760864eb0adc8ec3847ebf, type: 3}
+  m_Name: Episode4Data
+  m_EditorClassIdentifier: Assembly-CSharp::MovieQuizData
+  movieID: 3
+  questions:
+  - questionText: "\xBFQuien tiene los panos de la Estrella de la Muerte?"
+    answers:
+    - Luke
+    - Leia
+    - Han
+    - Vader
+    correctIndex: 1
+  - questionText: "\xBFQuien encuentra a R2-D2?"
+    answers:
+    - Han
+    - Luke
+    - Obi-Wan
+    - Leia
+    correctIndex: 1
+  - questionText: "\xBFQuien mata a Obi-Wan?"
+    answers:
+    - Vader
+    - Tarkin
+    - Palpatine
+    - Boba Fett
+    correctIndex: 0
+  - questionText: "\xBFPlaneta de Luke?"
+    answers:
+    - Naboo
+    - Hoth
+    - Tatooine
+    - Endor
+    correctIndex: 2
+  - questionText: "\xBFCompa\xF1ero de Han?"
+    answers:
+    - Lando
+    - Yoda
+    - Boba
+    - Chewbacca
+    correctIndex: 3
+  - questionText: "\xBFArma imperial principal?"
+    answers:
+    - Destructor
+    - Estrella de la muerte
+    - Base starkiller
+    - Crucero
+    correctIndex: 1
+  - questionText: "\xBFQuien lidera el ataque final?"
+    answers:
+    - Han
+    - Leia
+    - Luke
+    - Wedge
+    correctIndex: 2
+  - questionText: "\xBFQuien ayuda a luke al final?"
+    answers:
+    - Han
+    - Leia
+    - Obi-Wan
+    - Yoda
+    correctIndex: 0
+  - questionText: "\xBFComo dispara Luke?"
+    answers:
+    - Por Bluethoot
+    - Instinto
+    - La Fuerza
+    - Autopilot de Tesla
+    correctIndex: 2
+  - questionText: "\xBFQue recibe Luke al final de la pelicula?"
+    answers:
+    - Sable de luz
+    - Medalla
+    - Rango
+    - Nave
+    correctIndex: 1

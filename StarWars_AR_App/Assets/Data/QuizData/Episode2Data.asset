@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a7a42f88760864eb0adc8ec3847ebf, type: 3}
+  m_Name: Episode2Data
+  m_EditorClassIdentifier: Assembly-CSharp::MovieQuizData
+  movieID: 1
+  questions:
+  - questionText: "\xBFQui\xE9n intenta asesinar a Padm\xE9?"
+    answers:
+    - Dooku
+    - JangoFett
+    - Grievous
+    - Ventress
+    correctIndex: 1
+  - questionText: "\xBFQui\xE9n lidera a los separatistas?"
+    answers:
+    - Palpatine
+    - Dooku
+    - Maul
+    - Tarkin
+    correctIndex: 1
+  - questionText: "\xBFDonde se crean los clones?"
+    answers:
+    - Geonosis
+    - Kamino
+    - Naboo
+    - Corellia
+    correctIndex: 1
+  - questionText: "\xBFDe quien son clones los soldados? "
+    answers:
+    - Dooku
+    - Sidious
+    - Jango Fett
+    - Boba Fett
+    correctIndex: 2
+  - questionText: "\xBFQuien ordeno el ejercito clon?"
+    answers:
+    - Yoda
+    - Dooku
+    - Sifo-Dyas
+    - Palpatine
+    correctIndex: 2
+  - questionText: "\xBFDonde se casan Anakin y Padm\xE9?"
+    answers:
+    - Naboo
+    - Coruscant
+    - Kamino
+    - Alderaan
+    correctIndex: 0
+  - questionText: "\xBFQue le ocurre a la madre de Anakin?"
+    answers:
+    - Sobrevive
+    - Muere
+    - Escapa
+    - Es rescatada
+    correctIndex: 1
+  - questionText: "\xBFQue pierde Anakin en la batalla final?"
+    answers:
+    - Una pierna
+    - Un ojo
+    - Su sable
+    - Un brazo
+    correctIndex: 3
+  - questionText: "\xBFQuien lidera el rescate en Geonosis?"
+    answers:
+    - Mace Windu
+    - Obi-Wan
+    - Yoda
+    - Anakin
+    correctIndex: 0
+  - questionText: "\xBFQue conflicto comienza?"
+    answers:
+    - Guerra Civil
+    - Rebelion
+    - Guerras Clon
+    - Guerra Sith
+    correctIndex: 2

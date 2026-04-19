@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a7a42f88760864eb0adc8ec3847ebf, type: 3}
+  m_Name: Episode6Data
+  m_EditorClassIdentifier: Assembly-CSharp::MovieQuizData
+  movieID: 5
+  questions:
+  - questionText: "\xBFQuien rescata a Han?"
+    answers:
+    - Vader
+    - Yoda
+    - "Luke y compa\xF1ia"
+    - Lando solo
+    correctIndex: 2
+  - questionText: "\xBFQuien es Jabba?"
+    answers:
+    - Rey
+    - Sith
+    - Jedi
+    - Criminal
+    correctIndex: 3
+  - questionText: "\xBFQue revela Leia?"
+    answers:
+    - Es Jedi
+    - Es reina
+    - Es Sith
+    - Es Leia Skywalker
+    correctIndex: 3
+  - questionText: "\xBFDonde esta la Estrella de la Muerte?"
+    answers:
+    - Naboo
+    - Endor
+    - Hoth
+    - Coruscant
+    correctIndex: 1
+  - questionText: "\xBFQuien vive en Endor?"
+    answers:
+    - Wookiees
+    - Ewoks
+    - Jawas
+    - Gungans
+    correctIndex: 1
+  - questionText: "\xBFQuien gobierna el imperio"
+    answers:
+    - Vader
+    - Tarkin
+    - Palpatine
+    - Tharwn
+    correctIndex: 2
+  - questionText: "\xBFQue quiere el emperador?"
+    answers:
+    - Matar a Luke
+    - Convertir a Luke
+    - Capturar a Luke
+    - Matar a Leia
+    correctIndex: 1
+  - questionText: "\xBFQuien salva a Luke?"
+    answers:
+    - Leia
+    - Han
+    - Yoda
+    - Vader
+    correctIndex: 3
+  - questionText: "\xBFQue ocurre con Darth Vader?"
+    answers:
+    - Huye
+    - Sobrevive
+    - Muere redimido
+    - Gana
+    correctIndex: 2
+  - questionText: "\xBFQue pasa al final?"
+    answers:
+    - Imperio gana
+    - Jedi caen
+    - Imperio cae
+    - Nada cambia
+    correctIndex: 2

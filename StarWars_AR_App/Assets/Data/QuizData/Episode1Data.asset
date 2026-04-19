@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a7a42f88760864eb0adc8ec3847ebf, type: 3}
+  m_Name: Episode1Data
+  m_EditorClassIdentifier: Assembly-CSharp::MovieQuizData
+  movieID: 0
+  questions:
+  - questionText: "\xBFQui\xE9n descubre a Anakin Skywalker?"
+    answers:
+    - Obi-Wan Kenobi
+    - Qui-Gon Jinn
+    - Yoda
+    - Mace Windu
+    correctIndex: 1
+  - questionText: "\xBFQu\xE9 planeta est\xE1 bloqueado por la Federaci\xF3n de Comercio?"
+    answers:
+    - Coruscant
+    - Naboo
+    - Tatooine
+    - Alderaan
+    correctIndex: 1
+  - questionText: "\xBFQui\xE9n es la reina de Naboo?"
+    answers:
+    - Mon Monthma
+    - Shimi Skywalker
+    - "Padm\xE9 Amidala"
+    - Satine Kryze
+    correctIndex: 2
+  - questionText: "\xBFQu\xE9 especie es Jar Jar Binks?"
+    answers:
+    - "Twi\xB4lek"
+    - Wookiee
+    - Rodiano
+    - Gungan
+    correctIndex: 3
+  - questionText: "\xBFQui\xE9n es el aprendiz Sith que aparece?"
+    answers:
+    - Darth Maul
+    - Darth Vader
+    - Darth Plagueis
+    - Darth Bane
+    correctIndex: 0
+  - questionText: "\xBFQu\xE9 maestro Jedi muere?"
+    answers:
+    - Yoda
+    - Qui-Gon Jinn
+    - Obi-Wan
+    - Ki-Adi_Mundi
+    correctIndex: 1
+  - questionText: "\xBFQui\xE9n destruye la nave de control droide?"
+    answers:
+    - Obi-Wan
+    - "Padm\xE9"
+    - Anakin
+    - Jar Jar
+    correctIndex: 2
+  - questionText: "\xBFD\xF3nde ocurre la carrera de vainas?"
+    answers:
+    - Naboo
+    - Coruscant
+    - Mustafar
+    - Tatooine
+    correctIndex: 3
+  - questionText: "\xBFQui\xE9n entrena finalmente a Anakin?"
+    answers:
+    - Obi-Wan
+    - Yoda
+    - Windu
+    - Qui-Gon
+    correctIndex: 0
+  - questionText: "\xBFQui\xE9n es elegido Canciller Supremo?"
+    answers:
+    - Valorum
+    - Palpatine
+    - Bail Organa
+    - Tarkin
+    correctIndex: 1
