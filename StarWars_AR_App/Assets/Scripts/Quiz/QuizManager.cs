@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
@@ -87,7 +88,10 @@ public class QuizManager : MonoBehaviour
     {
         int finalScore = Mathf.RoundToInt((score / (float)questions.Length) * 10f);
 
-        GameManager.Instance.SaveScore(currentMovie, finalScore);
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.SaveScore(currentMovie, finalScore);
+        }
 
         questionText.text = "Puntaje final: " + finalScore + "/10";
 
@@ -95,5 +99,12 @@ public class QuizManager : MonoBehaviour
         {
             btn.gameObject.SetActive(false);
         }
+
+        Invoke("GoToMenu", 3f);
+    }
+
+    void GoToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b16d22c673266414598159453e94885d
+  - enabled: 1
+    path: Assets/Scenes/ARScene.unity
+    guid: 05f89c93d20775c48a4fe262b6297491
+  - enabled: 1
+    path: Assets/Scenes/ProgressScene.unity
+    guid: 3fb83a389faccb64f8c72d2f36f9ef58
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: f997390763f94f949b5534d4527c6b84
+  - enabled: 1
+    path: Assets/Scenes/TutorialScene.unity
+    guid: 3de4d4edf177b43469d471a9ad50ebc5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cd717f0faf1bc7c4db0732cd392d2437, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
