@@ -18,62 +18,62 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5581260161049288110
-      m_GuidHigh: 9721019193931250343
+      m_GuidLow: 5382301827806726086
+      m_GuidHigh: 11210462716332498339
     m_SerializedTextureGuid:
       m_GuidLow: 284870039146338629
       m_GuidHigh: 7439302517733966075
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: EP1
+    m_Name: poster1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4654948033079605425
-      m_GuidHigh: 13772460531557687718
+      m_GuidLow: 5180670892964584738
+      m_GuidHigh: 16102730164959485596
     m_SerializedTextureGuid:
       m_GuidLow: 13286828943593610998
       m_GuidHigh: 91878290930941035
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: EP2
+    m_Name: poster2
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4620183608959222233
-      m_GuidHigh: 15852717677517164419
+      m_GuidLow: 4929180285721054349
+      m_GuidHigh: 17667531503512990873
     m_SerializedTextureGuid:
       m_GuidLow: 4914643396862177485
       m_GuidHigh: 138911953343257337
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: EP3
+    m_Name: poster3
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5020688573176176499
-      m_GuidHigh: 15662375943967729315
+      m_GuidLow: 5188670348438471106
+      m_GuidHigh: 17884715817005263026
     m_SerializedTextureGuid:
       m_GuidLow: 3482674245989079605
       m_GuidHigh: 10562960942838554297
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: EP4
+    m_Name: poster4
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5301832459628986475
-      m_GuidHigh: 4504674267239846036
+      m_GuidLow: 5239572528978460159
+      m_GuidHigh: 10247122600384048019
     m_SerializedTextureGuid:
       m_GuidLow: 10755912515335621409
       m_GuidHigh: 10630127867778685451
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: EP5
+    m_Name: poster5
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5231816230209389462
-      m_GuidHigh: 12994414288891341706
+      m_GuidLow: 5227403939942212399
+      m_GuidHigh: 6315070012589775270
     m_SerializedTextureGuid:
       m_GuidLow: 16421428743122627465
       m_GuidHigh: 16731024959749186346
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: EP6
+    m_Name: poster6
     m_Texture: {fileID: 0}
