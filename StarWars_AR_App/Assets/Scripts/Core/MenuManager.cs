@@ -8,7 +8,6 @@ public class MenuManager : MonoBehaviour
     public GameObject panelNombre;
     public GameObject panelMenu;
     public GameObject panelConfirmExit;
-    
 
     [Header("Input")]
     public InputField inputNombre;
@@ -17,22 +16,18 @@ public class MenuManager : MonoBehaviour
     {
         string savedName = PlayerPrefs.GetString("PlayerName", "");
 
+        // Menú siempre visible (fondo)
+        panelMenu.SetActive(true);
+        panelConfirmExit.SetActive(false);
+
         if (string.IsNullOrEmpty(savedName))
         {
-            // Primera vez
             panelNombre.SetActive(true);
-            panelMenu.SetActive(false);
         }
         else
         {
-            // Ya jugó antes
             panelNombre.SetActive(false);
-            panelMenu.SetActive(true);
         }
-
-        panelConfirmExit.SetActive(false);
-
-        
     }
 
     // =========================
@@ -48,10 +43,12 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetString("PlayerName", nombre);
         PlayerPrefs.Save();
 
-        GameManager.Instance.playerName = nombre;
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.playerName = nombre;
+        }
 
         panelNombre.SetActive(false);
-        panelMenu.SetActive(true);
     }
 
     // =========================
