@@ -2,39 +2,60 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
 
 public class ImageTrackingHandler : MonoBehaviour
 {
     private ARTrackedImageManager manager;
+    private bool quizLaunched = false;
 
     void Awake()
     {
         manager = GetComponent<ARTrackedImageManager>();
+
+        if (manager == null)
+        {
+            Debug.LogError("No se encontró ARTrackedImageManager en este objeto.");
+        }
     }
 
     void OnEnable()
     {
-        manager.trackedImagesChanged += OnChanged;
+        if (manager != null)
+            manager.trackedImagesChanged += OnChanged;
     }
 
     void OnDisable()
     {
-        manager.trackedImagesChanged -= OnChanged;
+        if (manager != null)
+            manager.trackedImagesChanged -= OnChanged;
     }
 
     void OnChanged(ARTrackedImagesChangedEventArgs args)
     {
+        if (quizLaunched) return;
+
         foreach (var image in args.added)
         {
-            string name = image.referenceImage.name;
+            if (image.trackingState == TrackingState.Tracking)
+            {
+                quizLaunched = true;
 
-            MovieID movie = GetMovieFromImage(name);
+                string imageName = image.referenceImage.name;
+                Debug.Log("Imagen detectada: " + imageName);
 
-            PlayerPrefs.SetInt("SelectedMovie", (int)movie);
+                MovieID movie = GetMovieFromImage(imageName);
 
-            SceneManager.LoadScene("QuizScene");
+                PlayerPrefs.SetInt("SelectedMovie", (int)movie);
+
+                Invoke("LoadQuiz", 0.5f);
+                break;
+            }
         }
+    }
+
+    void LoadQuiz()
+    {
+        SceneManager.LoadScene("QuizScene");
     }
 
     MovieID GetMovieFromImage(string name)
