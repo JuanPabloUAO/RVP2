@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 284870039146338629
       m_GuidHigh: 7439302517733966075
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 1.5}
+    m_SpecifySize: 1
     m_Name: poster1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -33,8 +33,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 13286828943593610998
       m_GuidHigh: 91878290930941035
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 1.4923664}
+    m_SpecifySize: 1
     m_Name: poster2
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -43,8 +43,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4914643396862177485
       m_GuidHigh: 138911953343257337
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 1.49}
+    m_SpecifySize: 1
     m_Name: poster3
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -53,8 +53,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 3482674245989079605
       m_GuidHigh: 10562960942838554297
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 1.528}
+    m_SpecifySize: 1
     m_Name: poster4
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -63,8 +63,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10755912515335621409
       m_GuidHigh: 10630127867778685451
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 1.559}
+    m_SpecifySize: 1
     m_Name: poster5
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -73,7 +73,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 16421428743122627465
       m_GuidHigh: 16731024959749186346
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 1.5510768}
+    m_SpecifySize: 1
     m_Name: poster6
     m_Texture: {fileID: 0}
