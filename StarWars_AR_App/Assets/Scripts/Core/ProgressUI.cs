@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class ProgressUI : MonoBehaviour
 {
-    public Text text;
 
     void Start()
     {
@@ -22,6 +21,5 @@ public class ProgressUI : MonoBehaviour
             }
         }
 
-        text.text = result;
     }
 }

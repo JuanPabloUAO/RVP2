@@ -10,70 +10,70 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: ReferenceImageLibrary
+  m_Name: Libreria
   m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
-  m_GuidLow: 5679414773231341363
-  m_GuidHigh: 750438817646539196
+  m_GuidLow: 5476732071701212414
+  m_GuidHigh: 8361646236111153293
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5382301827806726086
-      m_GuidHigh: 11210462716332498339
+      m_GuidLow: 5253378237481033030
+      m_GuidHigh: 4639568258360985775
     m_SerializedTextureGuid:
-      m_GuidLow: 284870039146338629
-      m_GuidHigh: 7439302517733966075
-    m_Size: {x: 1, y: 1.5}
+      m_GuidLow: 15011848049766670547
+      m_GuidHigh: 11826620297429940616
+    m_Size: {x: 0.2, y: 0.2938296}
     m_SpecifySize: 1
     m_Name: poster1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5180670892964584738
-      m_GuidHigh: 16102730164959485596
+      m_GuidLow: 5400315869446200728
+      m_GuidHigh: 233931731941761456
     m_SerializedTextureGuid:
-      m_GuidLow: 13286828943593610998
-      m_GuidHigh: 91878290930941035
-    m_Size: {x: 1, y: 1.4923664}
+      m_GuidLow: 9481459329777405023
+      m_GuidHigh: 16679947238861884040
+    m_Size: {x: 0.2, y: 0.29985896}
     m_SpecifySize: 1
     m_Name: poster2
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4929180285721054349
-      m_GuidHigh: 17667531503512990873
+      m_GuidLow: 5339692854596403521
+      m_GuidHigh: 1754858636812200634
     m_SerializedTextureGuid:
-      m_GuidLow: 4914643396862177485
-      m_GuidHigh: 138911953343257337
-    m_Size: {x: 1, y: 1.49}
+      m_GuidLow: 7031386904638121399
+      m_GuidHigh: 9605745339615408491
+    m_Size: {x: 0.2, y: 0.271875}
     m_SpecifySize: 1
     m_Name: poster3
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5188670348438471106
-      m_GuidHigh: 17884715817005263026
+      m_GuidLow: 4809232186719835258
+      m_GuidHigh: 8001893285184658308
     m_SerializedTextureGuid:
-      m_GuidLow: 3482674245989079605
-      m_GuidHigh: 10562960942838554297
-    m_Size: {x: 1, y: 1.528}
+      m_GuidLow: 16079182486814770799
+      m_GuidHigh: 17351379856262687307
+    m_Size: {x: 0.2, y: 0.3}
     m_SpecifySize: 1
     m_Name: poster4
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5239572528978460159
-      m_GuidHigh: 10247122600384048019
+      m_GuidLow: 4724678420249196072
+      m_GuidHigh: 8700033529542333340
     m_SerializedTextureGuid:
-      m_GuidLow: 10755912515335621409
-      m_GuidHigh: 10630127867778685451
-    m_Size: {x: 1, y: 1.559}
+      m_GuidLow: 12525651177428780679
+      m_GuidHigh: 8677463335524775048
+    m_Size: {x: 0.2, y: 0.29761904}
     m_SpecifySize: 1
     m_Name: poster5
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5227403939942212399
-      m_GuidHigh: 6315070012589775270
+      m_GuidLow: 5735838145962918971
+      m_GuidHigh: 82838058230786484
     m_SerializedTextureGuid:
-      m_GuidLow: 16421428743122627465
-      m_GuidHigh: 16731024959749186346
-    m_Size: {x: 1, y: 1.5510768}
+      m_GuidLow: 4892051248989712728
+      m_GuidHigh: 664811326311089032
+    m_Size: {x: 0.2, y: 0.28523678}
     m_SpecifySize: 1
     m_Name: poster6
     m_Texture: {fileID: 0}
