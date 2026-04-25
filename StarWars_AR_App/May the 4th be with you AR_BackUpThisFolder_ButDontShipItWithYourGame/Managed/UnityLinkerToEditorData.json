@@ -19,10 +19,10 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 1,
@@ -69,7 +69,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -84,7 +84,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -134,7 +134,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -155,10 +155,10 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -179,10 +179,10 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 1,
@@ -197,10 +197,10 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -227,10 +227,10 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 1,
@@ -238,7 +238,9 @@
           },
           {
             "name": "Light",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SceneAR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -257,10 +259,10 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -281,10 +283,10 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -292,29 +294,35 @@
           },
           {
             "name": "Mesh",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SceneAR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshFilter",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SceneAR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SceneAR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -329,10 +337,10 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 1,
@@ -341,10 +349,10 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 1,
@@ -377,7 +385,6 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
@@ -395,10 +402,10 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -435,10 +442,10 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
+              "Assets/Scenes/SceneAR.unity",
               "Assets/Scenes/TutorialScene.unity"
             ],
             "dependencyType": 0,
@@ -459,7 +466,6 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity"
@@ -943,7 +949,9 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SceneAR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1354,7 +1362,6 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity"
@@ -1400,7 +1407,6 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",
@@ -1418,7 +1424,6 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/ProgressScene.unity",
               "Assets/Scenes/QuizScene.unity",

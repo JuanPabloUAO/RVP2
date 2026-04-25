@@ -56,7 +56,7 @@ public class MenuManager : MonoBehaviour
     // =========================
     public void GoToAR()
     {
-        SceneManager.LoadScene("ARScene");
+        SceneManager.LoadScene("SceneAR");
     }
 
     public void GoToTutorial()
@@ -66,7 +66,7 @@ public class MenuManager : MonoBehaviour
 
     public void GoToProgress()
     {
-        SceneManager.LoadScene("ProgressScene");
+        SceneManager.LoadScene("ProgressScene", LoadSceneMode.Single);
     }
 
     // =========================

@@ -8,67 +8,112 @@ public class ImageTrackingHandler : MonoBehaviour
     private ARTrackedImageManager manager;
     private bool quizLaunched = false;
 
+    // 🔥 BONUS PRO: evitar detección inmediata al entrar
+    private bool canScan = false;
+
     void Awake()
     {
         manager = GetComponent<ARTrackedImageManager>();
 
         if (manager == null)
         {
-            Debug.LogError("No se encontró ARTrackedImageManager en este objeto.");
+            Debug.LogError("❌ ARTrackedImageManager NO encontrado");
         }
+    }
+
+    void Start()
+    {
+        // Espera 2 segundos antes de permitir escaneo
+        Invoke(nameof(EnableScanning), 2f);
+    }
+
+    void EnableScanning()
+    {
+        canScan = true;
+        Debug.Log("✅ Escaneo habilitado");
     }
 
     void OnEnable()
     {
         if (manager != null)
-            manager.trackedImagesChanged += OnChanged;
+        {
+            manager.trackablesChanged.AddListener(OnTrackedImagesChanged);
+        }
     }
 
     void OnDisable()
     {
         if (manager != null)
-            manager.trackedImagesChanged -= OnChanged;
+        {
+            manager.trackablesChanged.RemoveListener(OnTrackedImagesChanged);
+        }
     }
 
-    void OnChanged(ARTrackedImagesChangedEventArgs args)
+    void OnTrackedImagesChanged(ARTrackablesChangedEventArgs<ARTrackedImage> args)
     {
-        if (quizLaunched) return;
+        Debug.Log("📸 Evento NUEVO de tracking");
 
         foreach (var image in args.added)
+            ProcessImage(image);
+
+        foreach (var image in args.updated)
+            ProcessImage(image);
+    }
+
+    void ProcessImage(ARTrackedImage image)
+    {
+        // 🔴 No escanear si aún no está habilitado
+        if (!canScan)
+            return;
+
+        if (image.trackingState != TrackingState.Tracking)
+            return;
+
+        string imageName = image.referenceImage.name;
+        Debug.Log("🟢 DETECTADA: " + imageName);
+
+        // 🚫 Evitar repetir escaneo del mismo poster
+        if (PlayerPrefs.GetInt("Scanned_" + imageName, 0) == 1)
         {
-            if (image.trackingState == TrackingState.Tracking)
-            {
-                quizLaunched = true;
+            Debug.Log("⚠️ Ya escaneado antes: " + imageName);
+            return;
+        }
 
-                string imageName = image.referenceImage.name;
-                Debug.Log("Imagen detectada: " + imageName);
+        if (!quizLaunched)
+        {
+            quizLaunched = true;
 
-                MovieID movie = GetMovieFromImage(imageName);
+            int movieIndex = GetMovieIndex(imageName);
 
-                PlayerPrefs.SetInt("SelectedMovie", (int)movie);
+            // ✅ Guardar como escaneado
+            PlayerPrefs.SetInt("Scanned_" + imageName, 1);
 
-                Invoke("LoadQuiz", 0.5f);
-                break;
-            }
+            Debug.Log("🎬 Cargando película índice: " + movieIndex);
+
+            PlayerPrefs.SetInt("SelectedMovie", movieIndex);
+
+            Invoke(nameof(LoadQuiz), 1f);
+        }
+    }
+
+    int GetMovieIndex(string name)
+    {
+        switch (name)
+        {
+            case "poster1": return 0;
+            case "poster2": return 1;
+            case "poster3": return 2;
+            case "poster4": return 3;
+            case "poster5": return 4;
+            case "poster6": return 5;
+            default:
+                Debug.LogWarning("⚠️ Imagen no reconocida: " + name);
+                return 0;
         }
     }
 
     void LoadQuiz()
     {
         SceneManager.LoadScene("QuizScene");
-    }
-
-    MovieID GetMovieFromImage(string name)
-    {
-        switch (name)
-        {
-            case "poster1": return MovieID.Episode1;
-            case "poster2": return MovieID.Episode2;
-            case "poster3": return MovieID.Episode3;
-            case "poster4": return MovieID.Episode4;
-            case "poster5": return MovieID.Episode5;
-            case "poster6": return MovieID.Episode6;
-            default: return MovieID.Episode1;
-        }
     }
 }
